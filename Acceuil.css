@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "BEYNO";
+    src: url("./font/FontsFree-Net-BEYNO.ttf");
+}
+@font-face {
+    font-family: "Panthera";
+    src: url("./font/PantheraRegular-MVZ9J.ttf");
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url("./font/Cantarell-Regular.ttf");
+}
+@font-face {
+    font-family: "WakandaForever";
+    src: url("./font/WakandaForever-Regular.ttf");
+}
+/* design général */
+body{
+    background-image: url("./Illustrations/Logo/arrière_plan.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+
+/* design header */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+}
+.menu ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family:"BEYNO" ;
+    color: #fff;
+    margin: 10px;
+}
+
+
+/* design footer */
+footer{
+    background-image: url(./Illustrations/Logo/back_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+}
+.footer, .footer .footer_text{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer .footer_text{
+    align-items: center;
+    width: 50%;
+}
+footer .footer_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Illustrations/Logo/footer1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 50%;
+}
+footer .footer_text ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Cantarell";   
+}
+footer .footer_text ul li{
+    display: block;
+    text-decoration: none;
+}
+
+footer .footer_text h2{
+    text-decoration: none;
+    font-family: "Cantarell" ;
+    font-size: 16px;
+    letter-spacing: 0.28em;
+}
+footer .icon_footer img{
+    padding: 5px;
+}
+
+
+
+
