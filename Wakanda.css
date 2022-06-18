@@ -78,46 +78,21 @@ header nav{
     margin: 10px;
 }
 
-/* design main */
-
 /* design section hero */
-#hero .hero{
-    display: flex;
-}
 
-/* design section card */
-#card .card{
-    display: flex;
-}
-#card .card .div1{
-    display: flex;
-}
-#card .card .div2{
-    display: flex;
-}
 
-/* design section tchalla */
-#tchalla .tchalla{
+/* design section origine */
+#origine .origin_culte{
     display: flex;
 }
 
 
-/* design section protecteur */
-#protecteur .justicier{
+
+/* design section cinema */
+#cinema .cine_afro{
     display: flex;
 }
 
-
-/* design formulaire */
-#formulaire{
-    height: 800px;
-}
-#formulaire .formulaire{
-    background-image: url(./Illustrations/Accueil/Pantherhome7.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-}
 
 /* design footer */
 footer{

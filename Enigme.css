@@ -77,47 +77,38 @@ header nav{
     color: #fff;
     margin: 10px;
 }
-
-/* design main */
-
 /* design section hero */
-#hero .hero{
+#hero .hero_page{
     display: flex;
 }
-
-/* design section card */
-#card .card{
-    display: flex;
-}
-#card .card .div1{
-    display: flex;
-}
-#card .card .div2{
-    display: flex;
-}
-
-/* design section tchalla */
-#tchalla .tchalla{
-    display: flex;
-}
-
-
-/* design section protecteur */
-#protecteur .justicier{
-    display: flex;
-}
-
-
-/* design formulaire */
-#formulaire{
-    height: 800px;
-}
-#formulaire .formulaire{
-    background-image: url(./Illustrations/Accueil/Pantherhome7.png);
+#hero .hero_img{
+    background-image: url(./Illustrations/Enigme/Pantherenigme1.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    width: 50%;
     height: 600px;
+    border: 1px solid #fff;
 }
+#hero .div1{
+    background-image: url(./Illustrations/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    border: #fff 1px solid;
+}
+
+
+/* design section formulaire */
+
+#formulaire .formulaire{
+    display: flex;
+}
+
+#formulaire .savoir{
+    background-image: url(./Illustrations/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    border: #fff 1px solid;
+}
+
 
 /* design footer */
 footer{
