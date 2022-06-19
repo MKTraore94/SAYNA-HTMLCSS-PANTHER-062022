@@ -34,7 +34,7 @@
 body{
     background-image: url("./Illustrations/Logo/arrière_plan.png");
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
 }
 .container{
@@ -43,15 +43,22 @@ body{
 }
 h1{
     font-family: "Panthera";
-    font-size: 68px;
+    font-size: 58px;
 }
 h2{
     font-family: "BEYNO";
     font-size: 32px;
+    color: #9e91b7;
 }
 p{
     font-family: "Cantarell";
     font-size: 16px;
+    color: #fff;
+    padding: 20px 0;
+    text-align: justify;
+}
+section{
+    padding: 70px 0;
 }
 
 
@@ -74,26 +81,45 @@ header nav{
 .menu ul li a{
     text-decoration: none;
     font-family:"BEYNO" ;
-    color: #fff;
+    color: #9e91b7;
     margin: 10px;
 }
 /* design section hero */
 #hero .hero_page{
     display: flex;
 }
-#hero .hero_img{
+/* #hero .hero_img{
     background-image: url(./Illustrations/Enigme/Pantherenigme1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 50%;
+    width: 600px;
     height: 600px;
     border: 1px solid #fff;
+} */
+
+#hero .hero_img img{
+    width: 600px;
+    height: 600px;
 }
+#hero .div1{
+    width: 600px;
+    height: 600px;
+    padding: 140px 100px;
+}
+
 #hero .div1{
     background-image: url(./Illustrations/Enigme/Pantherenigme2.png);
     background-repeat: no-repeat;
-    border: #fff 1px solid;
+    /* border: #fff 1px solid; */
+}
+
+/* design wakanda */
+#wakanda .titre h2{
+    text-decoration: none;
+    font-family: "WakandaForever";
+    color: #9e91b7;
+
 }
 
 
@@ -101,6 +127,11 @@ header nav{
 
 #formulaire .formulaire{
     display: flex;
+}
+
+#formulaire .savoir{
+    width: 1200px;
+    height: 600px;
 }
 
 #formulaire .savoir{
@@ -115,6 +146,7 @@ footer{
     background-image: url(./Illustrations/Logo/back_footer.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     height: 600px;
     color: #fff;
 }
