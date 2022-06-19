@@ -137,8 +137,28 @@ header nav{
 #formulaire .savoir{
     background-image: url(./Illustrations/Enigme/Pantherenigme2.png);
     background-repeat: no-repeat;
-    border: #fff 1px solid;
+    /* border: #fff 1px solid; */
 }
+#formulaire .alphabet label{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#formulaire .alphabet .form button{
+    width: 174px;
+    height: 54px;
+    padding: 10px 0;
+    background-color: #df99f2;
+    border-radius: 38px;
+}
+#formulaire .alphabet .form input{
+    width: 520px;
+    height: 56px;
+    padding: 10px;
+    border-radius: 38px ;
+    margin-bottom: 20px;
+}
+
 
 
 /* design footer */

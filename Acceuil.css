@@ -149,6 +149,29 @@ header nav{
     justify-content: space-between;
 }
 
+#tchalla .tchalla .tchalla_img{
+    background-color: #fff;
+}
+#tchalla .tchalla .tchalla_div2 button{
+    background-color: #07338c;
+    margin-bottom: 20px;
+    border: none;
+
+}
+#tchalla .tchalla .tchalla_div2 p{
+    padding: 0;
+}
+#tchalla .tchalla .tchalla_div2 strong{
+    color: #07338c;
+}
+
+#tchalla .tchalla .tchalla_div2 .p1{
+    color: #07338c;
+
+}
+
+
+
 
 
 /* design section protecteur */
@@ -187,7 +210,7 @@ header nav{
     width: 174px;
     height: 54px;
     padding: 10px 0;
-    color: #df99f2;
+    background-color: #df99f2;
     border-radius: 38px;
 }
 
